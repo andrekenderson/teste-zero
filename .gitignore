@@ -1,0 +1,78 @@
+# ==========================================================
+# Projeto Hub Educacional
+# Arquivo: .gitignore
+#
+# Finalidade:
+# Ignorar arquivos temporários, caches e configurações
+# pessoais que não devem ser versionadas pelo Git.
+# ==========================================================
+
+# ===========================
+# Visual Studio Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# JetBrains IDEs
+# ===========================
+.idea/
+*.iml
+
+# ===========================
+# Windows
+# ===========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Arquivos temporários
+# ===========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Cache
+.cache/
+
+# ===========================
+# Arquivos temporários do Office
+# ===========================
+~$*
+
+# ===========================
+# Obsidian
+# Configurações pessoais
+# ===========================
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
