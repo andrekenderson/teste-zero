@@ -1,0 +1,47 @@
+{
+  "name": "Hub-ma",
+  "short_name": "Hub-ma",
+  "description": "Hub e vault de conhecimento pessoal",
+
+  "id": "/",
+  "start_url": "/index.html",
+  "scope": "/",
+
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+
+  "background_color": "#4CBB17",
+  "theme_color": "#4CBB17",
+
+  "lang": "pt-BR",
+
+  "icons": [
+    {
+      "src": "assets/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
